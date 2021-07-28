@@ -17,10 +17,7 @@ class App extends React.PureComponent {
     render() {
         return (
             <>
-                {this.state.n%2 === 0 ?
-                    <div>偶数</div> :
-                    <div>奇数</div>
-                }
+                {this.state.n %2 === 0 && <div>偶数</div>}
                 <button onClick={this.onClick}>+1</button>
             </>
         )
