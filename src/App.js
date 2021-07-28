@@ -18,16 +18,20 @@ class App extends React.PureComponent {
     }
 
     render() {
-        console.log('render 了一次');
-        return (
-            <div>
-                App
+        const x = (
+            <>
+                <div>hi</div>
                 <div>
-                    {this.state.n}
-                    <button onClick={this.onClick}>+1</button>
+                    App
+                    <div>
+                        {this.state.n}
+                        <button onClick={this.onClick}>+1</button>
+                    </div>
                 </div>
-            </div>
+            </>
         )
+        console.log(x);
+        return x;
     }
 }
 
