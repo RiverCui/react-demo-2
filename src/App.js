@@ -12,18 +12,15 @@ class App extends React.PureComponent {
         this.setState(state => ({
             n: state.n + 1
         }))
-    }
+    };
 
     render() {
-        let message
-        if(this.state.n%2 === 0){
-            message =  <div>偶数</div>
-        } else {
-            message = <span>奇数</span>
-        }
         return (
             <>
-                {message}
+                {this.state.n%2 === 0 ?
+                    <div>偶数</div> :
+                    <div>奇数</div>
+                }
                 <button onClick={this.onClick}>+1</button>
             </>
         )
