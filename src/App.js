@@ -4,7 +4,8 @@ class App extends React.PureComponent {
     constructor(props) {
         super(props);
         this.state = {
-            n: 1
+            n: 1,
+            array: [1, 2, 3]
         }
     }
 
@@ -15,12 +16,11 @@ class App extends React.PureComponent {
     };
 
     render() {
-        return (
-            <>
-                {this.state.n %2 === 0 && <div>偶数</div>}
-                <button onClick={this.onClick}>+1</button>
-            </>
-        )
+        let result = []
+        for (let i = 0; i < this.state.array.length; i++) {
+            result.push(this.state.array[i])
+        }
+        return result
     }
 }
 
