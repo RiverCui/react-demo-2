@@ -11,27 +11,22 @@ class App extends React.PureComponent {
     onClick = () => {
         this.setState(state => ({
             n: state.n + 1
-        }));
-        this.setState(state => ({
-            n: state.n - 1
         }))
     }
 
     render() {
-        const x = (
+        let message
+        if(this.state.n%2 === 0){
+            message =  <div>偶数</div>
+        } else {
+            message = <span>奇数</span>
+        }
+        return (
             <>
-                <div>hi</div>
-                <div>
-                    App
-                    <div>
-                        {this.state.n}
-                        <button onClick={this.onClick}>+1</button>
-                    </div>
-                </div>
+                {message}
+                <button onClick={this.onClick}>+1</button>
             </>
         )
-        console.log(x);
-        return x;
     }
 }
 
