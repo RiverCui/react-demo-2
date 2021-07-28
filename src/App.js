@@ -1,12 +1,14 @@
 import React from 'react';
 
 class App extends React.PureComponent {
+    divRef = undefined;
     constructor(props) {
         super(props);
         this.state = {
             n: 1,
-            array: [1, 2, 3]
+            width: undefined
         }
+        this.divRef = React.createRef();
     }
 
     onClick = () => {
@@ -15,8 +17,16 @@ class App extends React.PureComponent {
         }))
     };
 
+    componentDidMount() {
+        const div = this.divRef.current;
+        const {width} = div.getBoundingClientRect()
+        this.setState({width})
+    }
+
     render() {
-        return this.state.array.map(n => <div key={n}>{n}</div>)
+        return(
+            <div ref={this.divRef}>Hello World, {this.state.width}px</div>
+        )
     }
 }
 
