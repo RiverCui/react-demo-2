@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="208c3aed-306c-4d7f-ac05-23f75aeed8d0" name="Default Changelist" comment="">
+    <list default="true" id="208c3aed-306c-4d7f-ac05-23f75aeed8d0" name="Default Changelist" comment="演示 render 中使用">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
@@ -51,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627389257469</updated>
       <workItem from="1627389258552" duration="7010000" />
-      <workItem from="1627440995839" duration="4730000" />
+      <workItem from="1627440995839" duration="5434000" />
     </task>
     <task id="LOCAL-00001" summary="练习两种写 state 的方法">
       <created>1627402198946</created>
@@ -102,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627459475908</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="演示 render 中不能直接使用 for循环，需要用数组">
+      <created>1627462248170</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1627462248170</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +135,8 @@
     <MESSAGE value="演示 render 中使用 if...else..." />
     <MESSAGE value="演示 render 中使用 ? : 表达式" />
     <MESSAGE value="演示 render 中使用 &amp;&amp; 表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="演示 render 中使用 &amp;&amp; 表达式" />
+    <MESSAGE value="演示 render 中不能直接使用 for循环，需要用数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="演示 render 中不能直接使用 for循环，需要用数组" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -16,11 +16,7 @@ class App extends React.PureComponent {
     };
 
     render() {
-        let result = []
-        for (let i = 0; i < this.state.array.length; i++) {
-            result.push(this.state.array[i])
-        }
-        return result
+        return this.state.array.map(n => <div key={n}>{n}</div>)
     }
 }
 
