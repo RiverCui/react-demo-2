@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="208c3aed-306c-4d7f-ac05-23f75aeed8d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -53,7 +56,7 @@
       <workItem from="1627389258552" duration="7010000" />
       <workItem from="1627440995839" duration="7698000" />
       <workItem from="1627471358208" duration="2712000" />
-      <workItem from="1627544002277" duration="5385000" />
+      <workItem from="1627544002277" duration="7159000" />
     </task>
     <task id="LOCAL-00001" summary="练习两种写 state 的方法">
       <created>1627402198946</created>
@@ -139,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627553952578</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="演示函数组件 用 useEffect 模拟 componentDidUpdate">
+      <created>1627557816225</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1627557816225</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +180,8 @@
     <MESSAGE value="演示 componentDidMount()" />
     <MESSAGE value="演示函数组件 用到 API useState" />
     <MESSAGE value="演示函数组件 用 useEffect 模拟 componentDidMount" />
-    <option name="LAST_COMMIT_MESSAGE" value="演示函数组件 用 useEffect 模拟 componentDidMount" />
+    <MESSAGE value="演示函数组件 用 useEffect 模拟 componentDidUpdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="演示函数组件 用 useEffect 模拟 componentDidUpdate" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
