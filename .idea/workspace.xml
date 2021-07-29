@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="208c3aed-306c-4d7f-ac05-23f75aeed8d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/useUpdate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
@@ -12,6 +13,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,7 +50,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,7 +64,7 @@
       <workItem from="1627389258552" duration="7010000" />
       <workItem from="1627440995839" duration="7698000" />
       <workItem from="1627471358208" duration="2712000" />
-      <workItem from="1627544002277" duration="7159000" />
+      <workItem from="1627544002277" duration="10368000" />
     </task>
     <task id="LOCAL-00001" summary="练习两种写 state 的方法">
       <created>1627402198946</created>
@@ -149,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627557816225</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="演示函数组件 用 useEffect 模拟 componentWillUnmount">
+      <created>1627568186265</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1627568186265</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +196,8 @@
     <MESSAGE value="演示函数组件 用到 API useState" />
     <MESSAGE value="演示函数组件 用 useEffect 模拟 componentDidMount" />
     <MESSAGE value="演示函数组件 用 useEffect 模拟 componentDidUpdate" />
-    <option name="LAST_COMMIT_MESSAGE" value="演示函数组件 用 useEffect 模拟 componentDidUpdate" />
+    <MESSAGE value="演示函数组件 用 useEffect 模拟 componentWillUnmount" />
+    <option name="LAST_COMMIT_MESSAGE" value="演示函数组件 用 useEffect 模拟 componentWillUnmount" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
