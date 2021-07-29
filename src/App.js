@@ -1,33 +1,34 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-class App extends React.PureComponent {
-    divRef = undefined;
-    constructor(props) {
-        super(props);
-        this.state = {
-            n: 1,
-            width: undefined
-        }
-        this.divRef = React.createRef();
+// class App extends React.Component {
+//     constructor(props){
+//         super(props)
+//         this.state = {n:1}
+//     }
+//     onClick = () => {
+//         this.setState(state=>({n: state.n + 1}))
+//     }
+//     render(){
+//         return (
+//             <div>
+//                 {this.state.n}
+//                  <button onClick={this.onClick}>+1</button>
+//             </div>
+//         )
+//     }
+// }
+
+const App = props => {
+    const [n,setN] = useState(0)
+    const onClick= () =>{
+        setN(n+1)
     }
-
-    onClick = () => {
-        this.setState(state => ({
-            n: state.n + 1
-        }))
-    };
-
-    componentDidMount() {
-        const div = this.divRef.current;
-        const {width} = div.getBoundingClientRect()
-        this.setState({width})
-    }
-
-    render() {
-        return(
-            <div ref={this.divRef}>Hello World, {this.state.width}px</div>
-        )
-    }
+    return(
+        <div>
+            {n}
+            <button onClick={onClick}>+1</button>
+        </div>
+    )
 }
 
 export default App;
