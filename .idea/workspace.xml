@@ -53,7 +53,7 @@
       <workItem from="1627389258552" duration="7010000" />
       <workItem from="1627440995839" duration="7698000" />
       <workItem from="1627471358208" duration="2712000" />
-      <workItem from="1627544002277" duration="3268000" />
+      <workItem from="1627544002277" duration="5385000" />
     </task>
     <task id="LOCAL-00001" summary="练习两种写 state 的方法">
       <created>1627402198946</created>
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627546945422</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="演示函数组件 用 useEffect 模拟 componentDidMount">
+      <created>1627553952577</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1627553952578</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +169,8 @@
     <MESSAGE value="演示 render 中使用 array.map 循环" />
     <MESSAGE value="演示 componentDidMount()" />
     <MESSAGE value="演示函数组件 用到 API useState" />
-    <option name="LAST_COMMIT_MESSAGE" value="演示函数组件 用到 API useState" />
+    <MESSAGE value="演示函数组件 用 useEffect 模拟 componentDidMount" />
+    <option name="LAST_COMMIT_MESSAGE" value="演示函数组件 用 useEffect 模拟 componentDidMount" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
